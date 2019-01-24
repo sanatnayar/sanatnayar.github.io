@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="animated fadeInUp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sanat Nayar</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="icon" href="person-male.ico">
+
+
+
+
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div id="sidebar">
+			<div class="toggle-btn" onclick="document.getElementById('sidebar').classList.toggle('active');">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<a href="index.html">
+					<li>Home</li>
+				</a>
+
+				<a href="about.html">
+					<li>About</li>
+				</a>
+
+				<a href="resume.html">
+					<li>Resume</li>
+				</a>
+
+				<a id="myDiv" href="https://sanatnayar-reactjs-portfolio.herokuapp.com/" onclick="javascript:document.getElementById('page-loader').style.display='block';">
+					<li>React Portfolio</li>
+				</a>
+				<div id="loader" style="display:none;background:green;padding:0px">This is a loader</div>
+			</ul>
+
+		</div>
+
+
+
+		<div id="particles-js"></div>
+			<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+			<script src="js/Background_Animation.js"></script>
+
+
+
+	    <div class="text"></div>
+			<script src="js/Text_Scrambler.js"></script>
+
+	</div>
+
+
+	<div class="wrapper">
+		<div id="object" class="slideRight">
+			<img id="slide" src="img/canvas.png"/>
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>
