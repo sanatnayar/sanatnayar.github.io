@@ -1,6 +1,6 @@
 particlesJS("particles-js", {
   particles: {
-    number: { value: 50, density: { enable: true, value_area: 1000 } },
+    number: { value: 50, density: { enable: false, value_area: 1000 } },
     color: { value: "#ffffff" },
     shape: {
       type: "circle",
@@ -9,9 +9,9 @@ particlesJS("particles-js", {
       image: { src: "img/github.svg", width: 200, height: 200 }
     },
     opacity: {
-      value: 1,
+      value: 0.7,
       random: false,
-      anim: { enable: false, speed: 100, opacity_min: 0.1, sync: false }
+      anim: { enable: false, speed: 20, opacity_min: 0.1, sync: false }
     },
     size: {
       value: 10,
@@ -19,7 +19,7 @@ particlesJS("particles-js", {
       anim: { enable: false, speed: 200, size_min: 0.1, sync: false }
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 250,
       color: "#ffffff",
       opacity: 0.4,
@@ -27,8 +27,8 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 50,
-      direction: "none",
+      speed: 5,
+      direction: "top",
       random: false,
       straight: false,
       out_mode: "out",
@@ -39,11 +39,11 @@ particlesJS("particles-js", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "repulse" },
-      onclick: { enable: true, mode: "push" },
+      onhover: { enable: false, mode: "repulse" },
+      onclick: { enable: false, mode: "push" },
       resize: true
     },
-    modes: {
+    modes: {  
       grab: { distance: 400, line_linked: { opacity: 1 } },
       bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
       repulse: { distance: 200, duration: 0.4 },
