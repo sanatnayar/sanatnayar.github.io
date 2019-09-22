@@ -3,9 +3,10 @@
 html,
 body {
 	font-family: 'Montserrat', monospace;
-	background: #003366;
+	background-image: url("mountain.jpg");
 	height: 100%;
-    overflow:hidden
+    overflow:hidden;
+    background-repeat: no-repeat
 }
 
 
@@ -251,7 +252,13 @@ body {
   .links{
       margin-left: 25%;
       width: 80%;
+      position: relative;
+      opacity: 0.9;
   }
   .icon{
       width: 15%;
+      
+  }
+  .icon:hover{
+      opacity: 0.5;
   }
