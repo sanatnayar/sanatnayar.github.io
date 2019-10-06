@@ -3,10 +3,11 @@
 html,
 body {
 	font-family: 'Montserrat', monospace;
-	background-image: url("mountain.jpg");
+	background-color: #66aacc;
 	height: 100%;
     overflow:hidden;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 
